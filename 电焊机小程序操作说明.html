@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安芯焊小程序使用说明</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        ol {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+        img {
+            display: block; 
+            margin: 10px auto; 
+            max-width: 50%; 
+            height: auto; 
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>安芯焊小程序使用说明</h1>
+
+        <h2>1. 注册</h2>
+        <p>使用电焊机小程序前，您需要进行注册。</p>
+        <ol>
+            <li>请使用钉钉/微信/浏览器扫描带有“日照港安芯焊设备ID：XXX”字样的二维码，打开安芯焊小程序。</li>
+            <li>点击左下方的“注册用户”按钮进入用户注册界面，填写必要的个人信息，确保信息准确。</li>
+            <li>填写完毕后点击“注册”完成注册。</li>
+        </ol>
+        
+        <img src="小程序示例.jpg" alt="安芯焊界面示例" />
+        <h2>2. 登录</h2>
+        <p>注册完成后，您可以通过以下步骤进行登录：</p>
+        <ol>
+            <li>输入账号与密码。</li>
+            <li>点击“登录”以进入主界面。</li>
+        </ol>
+        <p><strong>注意：</strong>
+                 <li><I>忘记登录密码时，请点击“找回密码”按照提示填写信息进行密码重置。</I></li>
+                 <li><I>密码设置至少为8位，且包含数字、大小写字母和特殊字符。</I></li></p>
+        
+        <h2>3. 首页</h2>
+        <p>登录成功后，您进入小程序的首页，首页展示了以下内容：</p>
+        <ol>
+            <img src="首页示例.jpg" alt="首页示例" />
+            <li>首页展示目前设备状态信息。</li>
+            <li>扫码开机：点击正下方“扫码”按钮，扫描设备二维码，即可开机。
+                <br>开机后将展示如下电焊机编号信息及作业票审批信息:
+                <br><img src="扫码后链接" alt="扫码后显示电焊机编号及作业信息审批示例" />
+                <br>注意:如需更换设备，可点击页面中“重新扫码”按钮进行设备更换。</li>
+            <li>点击“我的”，可展示当前用户的姓名、手机号、作业证书编号以及施工单位等用户信息。</li>
+            <img src="点击我的.jpg" alt="点击我的后用户信息示例" />
+        </ol>
+
+        <h2>4. 使用功能</h2>
+        <p>安芯焊小程序使用过程中，您可以访问以下功能：</p>
+        <ol>
+            <li><strong>正常刷脸开机</strong>：动火作业票审批完成时，可在首页正下方点击“刷脸”按钮，即可正常开机。
+                <br><img src="正常开机作业界面示例链接" alt="正常开机作业界面示例" />
+                <br><I>（注意：操作过程中如有获取手机定位弹窗，请点击允许。）</I></li>
+            <li><strong>刷脸失败强制开机</strong>：如操作过程中出现刷脸失败情况，可使用该功能强制开机。
+            <br>点击下方“我的”按钮后点击界面中“帮助”按钮，进入以下界面：
+            <br><img src="点击帮助按钮.jpg" alt="点击帮助按钮后界面示例" />
+            <br>点击“刷脸失败强制开机”按钮，进入刷脸失败强制开机界面：
+            <br><img src="刷脸失败强制开机链接" alt="刷脸失败强制开机界面示例" /></li>
+        
+            <li><strong>无作业强制开机</strong>：如遇紧急使用情况，可使用该功能强制开机（一般不建议使用）。
+                <br>点击下方“我的”按钮后点击界面中“帮助”按钮；
+                <br>然后点击“无作业强制开机”按钮，进入无作业强制开机界面：
+                <br><img src="无作业强制开机链接" alt="无作业强制开机界面示例" />
+                <br><I>注意：无作业强制开机功能仅适用于紧急使用情况，使用完毕需在“帮助”页面中点击“无作业关机”按钮。</I></li>
+        </ol>
+        <I>注意：刷脸失败强制开机与无作业强制开机功能仅可使用两小时，请注意使用时间。</I>
+
+      
+       
+        <div class="footer">
+            <p>&copy; 2024 山东港口科技集团日照有限公司 </p>
+        </div>
+       
+    </div>
+
+</body>
+</html>
